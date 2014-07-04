@@ -8,7 +8,7 @@ setup(
   author = 'S1mbi0se Technology Ventures',
   author_email = 'peterldowns@gmail.com',
   url = 'https://github.com/s1mbi0se/s1ipc',
-  download_url = 'https://github.com/s1mbi0se/s1ipc/archive/v0.1.tar.gz',
+  download_url = 'https://github.com/s1mbi0se/s1ipc/archive/v0.1.2.tar.gz',
   keywords = ['s1mbi0se', 's1ipc', 'ipc', 'interprocess communication'],
   license='Apache 2.0',
   classifiers = [],
