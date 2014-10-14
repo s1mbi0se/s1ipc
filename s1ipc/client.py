@@ -107,6 +107,7 @@ class BaseIPCClient(object):
         Requests the server to shutdown itself (harakiri request).
         :return:
         """
+        self.connected = False
         self.protocol.send_message(self.sock, '__!shutdown__')
         data = self.protocol.recover_message(self.sock)
         self.sock.close()
